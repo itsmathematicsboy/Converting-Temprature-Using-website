@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Convert Temperature</title>
+</head>
+<body>
+    <main>
+        <h2>Convert the Temperature</h2>
+
+        <div class = 'row'>
+            <div class = 'card'>
+                <div class='celsius-temp'>
+                    <!-- Celsius -->
+                    <label for="temp-input-celsius">Temperature from celsius:</label>
+                    <br>
+                    <input type="text" id='temp-input-celsius' class='input' >
+                    <br><br>
+                    <span class='celsius-to-fahrenheit'>
+                        <button class='btn-celsius-to-fahrenheit'>Celsius to Fahrenheit</button>
+                        <output class='celsius-to-fahrenheit' id='celsius-fahrenheit'>= 0</output>
+                    </span>
+                    <br><br>
+                    <span class='celsius-to-kelvin'>
+                        <button class='btn-celsius-to-kelvin'>Celsius to Kelvin</button>
+                        <output class='celsius-to-kelvin' id='celsius-kelvin'>= 0</output>
+                    </span>
+                    <br><br>
+                    <span class = 'celsius-to-reamur'>
+                        <button class = 'btn-celsius-to-reamur'>Celsius to Reamur</button>
+                        <output class = 'celsius-to-reamur' id="celsius-reamur">= 0</output>
+                    </span>
+                </div>
+            </div>
+            <br>
+    
+            <div class = 'card '>
+                <div class = 'fahrenheit-temp'>
+                    <!-- Fahrenheit -->
+                    <label for="temp-input-fahrenheit">Temperature from fahrenheit:</label>
+                    <br>
+                    <input type="text" id = 'temp-input-fahrenheit' class = 'input'>
+                    <br><br>
+                    <span class = 'fahrenheit-to-celsius'>
+                        <button class = 'btn-fahrenheit-to-celsius'>Fahrenheit to Celsius</button>
+                        <output class = 'fahrenheit-to-celsius' id = 'fahrenheit-celsius'>= 0</output>
+                    </span>
+                    <br><br>
+                    <span class = 'fahrenheit-to-kelvin'>
+                        <button class = 'btn-fahrenheit-to-kelvin'>Fahrenheit to Kelvin</button>
+                        <output class = 'fahrenheit-to-kelvin' id = 'fahrenheit-kelvin'>= 0</output>
+                    </span>
+                    <br><br>
+                    <span class = 'btn-fahrenheit-to-reamur'>
+                        <button class = 'btn-fahrenheit-to-reamur'>Fahrenheit to Reamur</button>
+                        <output class = 'fahrenheit-to-reamur' id = 'fahrenheit-reamur'>= 0</output>
+                    </span>
+                </div>
+            </div>
+            <br>
+    
+            <div class = 'card'>
+                <div class = 'kelvin-temp'>
+                    <!-- Kelvin -->
+                    <label for="temp-input-kelvin">Temperature from Kelvin:</label>
+                    <br>
+                    <input type="text" id = 'temp-input-kelvin' class = 'input'>
+                    <br><br>
+                    <span class = 'kelvin-to-celsius'>
+                        <button class = 'btn-kelvin-to-celsius'>Kelvin to Celsius</button>
+                        <output class = 'kelvin-to-celsius' id = 'kelvin-celsius'>= 0</output>
+                    </span>
+                    <br><br>
+                    <span class = 'kelvin-to-fahrenheit'>
+                        <button class = 'btn-kelvin-to-fahrenheit'>Kelvin to Fahrenheit</button>
+                        <output class = 'kelvin-to-fahrenheit' id = 'kelvin-fahrenheit'>= 0</output>
+                    </span>
+                    <br><br>
+                    <span class = 'kelvin-to-reamur'>
+                        <button class = 'btn-kelvin-to-reamur'>Kelvin to Reamur</button>
+                        <output class = 'kelvin-to-reamur' id = 'kelvin-reamur'>= 0</output>
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <div class=" d-flex knowledge" style="justify-content: center; justify-items: center;">
+            <h2>Temperature Conversion Knowledge</h2>
+            <p>
+                Temperature is one of the most important aspects of our daily lives, influencing everything from the weather we experience to the functionality of machines and processes in science and industry. It is a measure of how hot or cold something is and plays a crucial role in our understanding of the physical world. Whether you're checking the weather forecast, cooking your favorite meal, or studying the properties of matter in a laboratory, temperature is always a critical factor.  
+                <br><br>
+                Temperature is measured using different scales, each suited for specific purposes. The three most commonly used scales are Celsius (°C), Fahrenheit (°F), and Kelvin (K). While these scales serve different purposes and are used in varying contexts, they can be converted from one to another through simple mathematical formulas.  
+                <br><br>
+                - The Celsius Scale: The Celsius scale, also known as the centigrade scale, is widely used around the world, particularly in scientific and everyday contexts. On this scale, water freezes at 0°C and boils at 100°C under standard atmospheric pressure. It is based on the properties of water, making it highly intuitive and easy to use.
+                <br><br>
+                - The Fahrenheit Scale: Predominantly used in the United States and a few other countries, the Fahrenheit scale defines the freezing point of water at 32°F and its boiling point at 212°F. While less commonly used internationally, it remains an important scale in certain industries and regions.
+                <br><br>
+                - The Kelvin Scale: The Kelvin scale is the standard scientific unit of temperature, starting at absolute zero, the point where all molecular motion ceases. Absolute zero corresponds to -273.15°C or -459.67°F. In this scale, water freezes at 273.15K and boils at 373.15K, making it ideal for calculations in thermodynamics and physics.
+                <br><br>
+                Understanding these scales and how to convert between them is not only useful but also essential for various fields, including meteorology, engineering, healthcare, and space exploration. Mastering temperature conversions allows us to bridge the gap between different systems and ensures effective communication and accurate calculations across disciplines.
+            </p>
+        </div>
+    </main>
+</body>
+</html>
